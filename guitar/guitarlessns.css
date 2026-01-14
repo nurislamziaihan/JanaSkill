@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    font-size: 16px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(10, 0, 255, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+}
+
+header {
+    background-color: #000f25;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #00aaff;
+    border-bottom: 4px solid #000000;
+}
+
+nav {
+    background-color: #000f25;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0a0f1e;
+    border: 2px solid #001f4d;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00ccff;
+    margin-top: 30px;
+}
+
+.accord-block {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.accord {
+    width: 50px;
+    height: 50px;
+    background-color: #001f4d;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid #00aaff;
+    border-radius: 5px;
+}
+
+.guitar-img {
+    width: 300px;
+    height: 200px;
+    background-color: #001f4d;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00aaff;
+    color: #00aaff;
+}
+
+.strum-block {
+    background-color: #002051;
+    color: #00aaff;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    font-size: 30px;
+}
+
+.task {
+    background-color: #000000;
+    color: #00ccff;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.tas{
+    display: flex;
+}
+img{
+    width: 94%;
+}
+.guitar-img a{
+    color: #ffffff;
+}
+.image-container {
+  display: none; /* Изначально скрыто */
+  position: relative; /* Относительное позиционирование для абсолютного дочернего */
+  width: 100%;
+  height: 300px; /* Или любая другая высота */
+  /* Другие стили для фона или границ */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  /* Для центрирования картинки по центру экрана (если контейнер занимает весь экран): */
+  /* position: fixed; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.centered-image {
+  position: absolute; /* Абсолютное позиционирование внутри контейнера */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрируем точно */
+  max-width: 90%; /* Чтобы картинка не вылезала за пределы */
+  max-height: 90%;
+}

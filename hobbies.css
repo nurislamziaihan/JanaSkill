@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    font-size: 16px;
+}
+header{
+    padding: 50px 0;
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(10, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 50%);
+    width: 100%;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+.backbtn{
+    margin:25px 50px;
+    background: #0000ff;
+    padding: 17px 25px;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+.backbtn a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+.backbtn:hover{
+    background: #ffffff;
+}
+.backbtn a:hover{
+    color: black;
+}
+header h1{
+    margin: auto;
+    padding-right: 255px;
+    font-size: 50px;
+    font-weight: 800;
+    transition: all 500ms ease;
+
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 10%, rgba(10, 0, 255, 1) 100%);
+    width: 100%;
+}
+body .block12,
+body .block34{
+    display: flex;
+    justify-content: space-between;
+}
+.blocks p{
+    margin:25px 50px;
+    background: url('/hobbies/hobbuimages/ChatGPT\ Image\ 4\ янв.\ 2026\ г.\,\ 23_19_58.png') no-repeat
+    center fixed;
+    background-size: cover;
+    padding: 150px 100px;
+    border-radius: 10px;
+    transition: all 500ms ease;
+    margin:10px 35px;
+    width: 30%;
+}
+.workout p{
+    margin:25px 50px;
+    background: url('/hobbies/hobbuimages/ChatGPT\ Image\ 5\ янв.\ 2026\ г.\,\ 00_02_15.png') no-repeat
+    center fixed;
+    background-size: cover;
+    padding: 150px 100px;
+    border-radius: 10px;
+    transition: all 500ms ease;
+    margin:10px 35px;
+    width: 30%;
+}
+.blocks p a{
+    width: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#ffffff ;
+    background-color: #cecece;
+    opacity: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0000ff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 500ms ease;
+}
+.blocks p a:hover{
+    background-color: black;
+    border: 7px solid #0000ff;
+}
+.guitar p a{
+
+    width: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#ffffff ;
+    background-color: #cecece;
+    opacity: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0000ff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 500ms ease;
+}
+.guitar p{
+    margin:25px 50px;
+    background: url('/hobbies/hobbuimages/ChatGPT\ Image\ 4\ янв.\ 2026\ г.\,\ 23_59_30.png') no-repeat
+    center fixed;
+    background-size: cover;
+    padding: 150px 100px;
+    border-radius: 10px;
+    transition: all 500ms ease;
+    margin:10px 35px;
+    width: 30%;
+}
+.guitar p a:hover{ 
+    background-color: black;
+    border: 7px solid #0000ff;
+}
