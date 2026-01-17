@@ -9,10 +9,10 @@ head {
     font-weight: 400;
     color:#ffffff;
     font-size: 16px;
+    background-color: #000000;
 }
 header{
     padding: 50px 0;
-    width: 1200px;
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(10, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 50%);
     width: 100%;
@@ -22,7 +22,7 @@ header div{
     justify-content: space-between;
 }
 .backbtn{
-    margin:25px 50px;
+    margin:55px;
     background: #0000ff;
     padding: 17px 25px;
     border-radius: 10px;
@@ -49,7 +49,6 @@ header h1{
 
 }
 body{
-    width: 1200px;
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 10%, rgba(10, 0, 255, 1) 100%);
     width: 100%;
@@ -60,29 +59,29 @@ body .block34{
     justify-content: space-between;
 }
 .blocks p{
-    margin:25px 50px;
+    margin:25px 5%;
     background: url('hobbuimages/ChatGPT\ Image\ 4\ янв.\ 2026\ г.\,\ 23_19_58.png') no-repeat
     center fixed;
     background-size: cover;
-    padding: 150px 100px;
+    padding: 150px 10%;
     border-radius: 10px;
     transition: all 500ms ease;
     margin:10px 35px;
     width: 30%;
 }
 .workout p{
-    margin:25px 50px;
+    margin:25px 5%;
     background: url('hobbuimages/ChatGPT\ Image\ 5\ янв.\ 2026\ г.\,\ 00_02_15.png') no-repeat
     center fixed;
     background-size: cover;
-    padding: 150px 100px;
+    padding: 150px 10%;
     border-radius: 10px;
     transition: all 500ms ease;
     margin:10px 35px;
     width: 30%;
 }
 .blocks p a{
-    width: 50px;
+    width: 20%;
     font-size: 40px;
     font-weight: 700;
     color:#ffffff ;
@@ -104,7 +103,7 @@ body .block34{
 }
 .guitar p a{
 
-    width: 50px;
+    width: 20%;
     font-size: 40px;
     font-weight: 700;
     color:#ffffff ;
@@ -121,11 +120,11 @@ body .block34{
     transition: all 500ms ease;
 }
 .guitar p{
-    margin:25px 50px;
+    margin:25px 5%;
     background: url('hobbuimages/ChatGPT\ Image\ 4\ янв.\ 2026\ г.\,\ 23_59_30.png') no-repeat
     center fixed;
     background-size: cover;
-    padding: 150px 100px;
+    padding: 150px 10%;
     border-radius: 10px;
     transition: all 500ms ease;
     margin:10px 35px;
