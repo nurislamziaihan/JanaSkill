@@ -22,15 +22,15 @@ header div{
     justify-content: space-between;
 }
 .backbtn{
-    margin:55px;
+    margin:5%;
     background: #0000ff;
-    padding: 17px 25px;
-    border-radius: 10px;
+    padding: 1.7% 2.5%;
+    border-radius: 1%;
     transition: all 500ms ease;
 }
 .backbtn a{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 2%;
     font-weight: 600;
     transition: all 500ms ease;
 }
@@ -42,8 +42,8 @@ header div{
 }
 header h1{
     margin: auto;
-    padding-right: 255px;
-    font-size: 50px;
+    padding-right: 0;
+    font-size: 5%;
     font-weight: 800;
     transition: all 500ms ease;
 
@@ -64,7 +64,7 @@ body .block34{
     center fixed;
     background-size: cover;
     padding: 150px 10%;
-    border-radius: 10px;
+    border-radius: 1%;
     transition: all 500ms ease;
     margin:10px 35px;
     width: 30%;
@@ -81,15 +81,15 @@ body .block34{
     width: 30%;
 }
 .blocks p a{
-    width: 20%;
+    width: 25%;
     font-size: 40px;
     font-weight: 700;
     color:#ffffff ;
     background-color: #cecece;
     opacity: 60%;
     margin: auto;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 2%;
+    border-radius: 1%;
     border: 2px solid #0000ff;
     display: block;
     justify-content: center;
