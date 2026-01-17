@@ -114,11 +114,12 @@ header nav ul li.btn a:hover{
 
 .hero--info h1{
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 50%;
     font-weight: 800;
 }
 
 .hero--info p{
+    font-size:16%;
     font-weight: 600;
     line-height: 170%;
     margin: 20px 0;
